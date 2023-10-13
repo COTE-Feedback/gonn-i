@@ -17,6 +17,7 @@ for i in range(command_count):
             print(stack[len(stack)-1])
             del stack[len(stack)-1]
         else: print(-1)
+        
     elif command[0] == 'size': 
         print(len(stack))
         
